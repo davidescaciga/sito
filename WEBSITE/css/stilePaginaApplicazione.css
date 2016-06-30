@@ -1,0 +1,142 @@
+body{
+    margin:0;
+ 
+    width: 100%;
+}
+
+ul.largo{
+    width: 80%;
+    margin:auto;
+    
+}
+
+.clear {
+    clear: both;
+}
+
+h1, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.immagineInAlto{
+    height: auto;
+    width: auto; 
+    text-align: center;
+}
+.intestazione{
+    display: -webkit-inline-flex;
+    display: inline-flex;
+}
+.ridimensionaImmagine{
+    width: 300px;
+    height: 300px; 
+}
+
+.logo{
+    padding-left: 150px;
+    width: 300px;
+    height: 300px;
+}
+
+.titolo{
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 100px;
+    text-transform: uppercase; 
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pulsante{
+	border: solid blue 2px;
+  	height: 40px;
+    width: auto;
+    min-width: 220px;
+	line-height: 35px;
+	/*position: absolute;*/
+	right: 0px;
+	font-size: 15px;
+	bottom: 10px;
+	padding: 5px;
+    margin-top: 20px;
+	text-align: center;
+}
+
+.categoria{
+	font-size: 25px;
+}
+
+.bloccoGrande {
+    width: 1100px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+   padding-bottom: 0px;
+}
+
+.primaRiga {
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    width: 1100px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.secondaRiga{
+      display: -webkit-inline-flex;
+    display: inline-flex;
+    width: 1100px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+ .scritta {
+    width: 500px;
+    text-transform: uppercase;
+    text-align: left;
+     color: red;
+     font-size: 30px;
+     font-weight: bold;
+}
+.descrizione {
+    width: 700px;
+    text-align: justify;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.faq{
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    width: 1100px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    padding-left: 120px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.scrittaFaq{
+    width: 150px;
+    text-transform: uppercase;
+    text-align: left;
+     color: red;
+     font-size: 30px;
+     font-weight: bold;
+}
+.sottotitolo{
+    padding-left: 120px;
+    text-transform: uppercase;
+    text-align: left;
+     color: red;
+     font-size: 30px;
+}

@@ -1,0 +1,386 @@
+.flex-item{
+    margin: auto;
+    padding: 10px;
+}
+
+div#immagine{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+
+img.principale {
+    width: auto;
+    height: 400px;
+    margin: auto;
+}
+
+.contenuto{
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    width: 300px;
+    height: 250px;
+    min-width: 300px;
+    min-height: 250px;
+    margin:10px;
+
+}
+
+.divFiltro{
+    margin: auto;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+
+
+.bordiAzzurri{
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-width: thin;
+}
+
+.bordiRossi{
+    border-style: solid;
+    border-color: red;
+    border-width: thin;
+}
+
+.striscia{
+    display: -webkit-inline-flex;
+    display: inline-flex; 
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    min-width: 650px;
+    
+}
+
+
+.imgHome{
+    width: 100px;
+    height: 200px;
+    min-width: 100px;
+    min-height: 200px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+span{
+    display: -webkit-inline-flex;
+    display: inline-flex;
+}
+
+.titolo1{
+    min-width: 170px;
+}
+
+.titolo12{
+    min-width: 100px;
+    text-align: center; 
+}
+
+.scritte{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.titoli{
+    min-width: 100%;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.sottotitoli{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.promozione{
+    width: 80%;
+    height: auto;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    align-content: center;
+    
+}
+.divImgPromoz{
+    width: 100%;
+}
+
+.imgPromozione{
+    display: -webkit- block;
+    width: auto;
+    height: 400px;
+    display: block;
+	margin: 0px auto;
+	text-align: center;
+    margin-top: 10px;
+}
+
+.categorieDispositivi{
+    display: -webkit-inline-block;
+    display: inline-block;
+    padding: 10px;
+    margin: auto;
+    min-width: 250px;
+    width: 20%;
+    
+}
+
+.imgCategorieDispositivi{
+    display: -webkit- block;
+    width: auto;
+    height: 130px;
+    display: block;
+	margin: 0px auto;
+	text-align: center;
+   
+}
+
+/*.imgCatDispositiviLato{
+    height: 100px;
+    width: 100px;    
+}*/
+
+.filtro{
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+    
+}
+
+.rigaFiltro{
+  padding-right: 20px;  
+}
+
+.menuLaterale{
+    width: 250px;
+    margin: auto;
+    margin-left: 20px;
+    margin-top: 0px;
+
+}
+
+.rigaMenuLaterale{
+    margin-bottom: 30px;
+}
+
+.tabellaDispositivi{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 0px;
+    padding: 20px;
+    padding-top: 0px;
+    padding-right: 0px;
+}
+
+.rigaDispositivo{
+    width: 100%;
+    margin-bottom: 100px;
+    
+}
+
+.dispositivi{
+    width: 250px;
+    height: 280px;
+    margin: auto;
+}
+
+.imgDispositivi{
+    display: -webkit- block;
+    width: auto;
+    height: 130px;
+    display: block;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.nomeDispositivo{
+    height: 50px;
+}
+
+.imgDispositiviGrande{
+    display: -webkit- block;
+    width: auto;
+    height: 400px;
+    display: block;
+	margin: auto;
+    margin-top: 50px;
+}
+
+.indietroCategoria{
+    width: 200px;
+    margin: 50px;
+}
+
+.bloccoDispositivo{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-left: 50px;
+}
+
+.caratteristicheDispositivo{
+    padding: 15px;
+    text-align: justify;
+}
+
+.menuDispositivo{
+    margin-top: 30px;
+    margin-right: 1px;
+    border-style: solid;
+    border-width: medium;
+    border-color: cornflowerblue;
+    font-size: 30px;
+    margin-bottom: 0;
+    
+}
+
+.primoBlocco{
+    margin-left: 50px;
+}
+
+
+td{
+    padding-right: 100px;
+}
+
+.elencoCaratteristiche{
+    font-weight: bold;
+}
+
+#testoRegistrazione{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.titolitesto{
+    font-size:20px; 
+    text-align: left;
+}
+
+.centrato{
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    width: 100%;
+    
+}
+
+.prezziPromozioni{
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    margin: auto;
+    width: 100%;
+    
+    
+}
+
+.barrato{
+     text-decoration: line-through;
+}
+
+.prezzo{
+    margin: auto;
+   
+}
+.menu{
+    position: relative;
+    width: 1100px;
+    height: 500px;
+}
+
+.descrizioneDispositivo{
+    margin-left: 50px;
+    margin-top: 0;
+    position: absolute;
+}
+
+.linkASmartlife{
+    margin-top: 0;
+}
+
+.lSSlideWrapper{
+    margin-left: 50px !important;
+    
+}
+
+.linkAdAssistenza{
+    margin-left: 50px;
+    margin-top: 0;
+    position: absolute;
+    display: inline-flex;
+    display: -webkit- inline;
+}
+
+
+.spanCambioPagina {
+    float: right;
+    display: block;
+    list-style: none;
+    list-style-type: none;
+    margin-right: 8%;
+}
+
+.cambiaPagina {
+    display: inline;
+    text-align: center;
+}
+
+.cambiaPagina a {
+    text-decoration: none;
+    display: block;
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    margin: 20px;
+    line-height: 40px;
+}
+
+.pulsante{
+    border: solid blue 2px;
+  	height: 40px;
+    width: auto;
+    min-width: 220px;
+	line-height: 35px;
+    float: left;
+	font-size: 30px;
+	bottom: 10px;
+	padding: 5px;
+    margin-top: 20px;
+	text-align: center;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.dimImgSL{
+    height: 200px;
+    width: 250px;
+    
+}
+
+.elementiSlideBar{
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.assistenze{
+    font-size: 30px;
+}
+
+#toAssistenza1{
+    margin-right: 50px;
+}

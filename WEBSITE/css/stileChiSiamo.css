@@ -1,0 +1,162 @@
+
+.sottoTitolo{
+    color: blue;
+    text-align: center;
+}
+
+body{
+    margin:0;
+    width: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+h1, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+
+div {
+    margin-bottom: 0px;
+}
+
+.intestazione {
+    background-color: white;
+    height: 70px;
+    width: 900px;
+    padding: 0;
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+.titolo {
+    color: blue;
+    margin: 0;
+    padding: 0;
+    float: left;
+    line-height: 70px;
+    width: 150px;
+    
+}
+
+.collegamenti {
+    margin: 0;
+    padding: 0;
+    float: left;
+    line-height: 70px;
+    color: red;
+    width: 750px;
+    text-align: center;
+}
+
+.collegamenti.footer {
+    margin-left: 150px;
+}
+
+.separatore {
+    color: black;
+}
+
+.centra{
+    margin-left: 345px;
+}
+.primoBloccoInnovETest{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: thin;
+   
+}
+.secondoBloccoInnov{
+    margin-left: 270px;
+    width: 800px;
+    height: 600px;
+    border-style: solid;
+    border-width: thin;
+    border-color: blue;
+    background-color: cornflowerblue;
+}
+
+.descrizioneInnov{
+    color: blue;
+    text-align: center;
+   margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+/*STILI RIGUARDANTI PAGINA PROGETTI ni*/
+
+.bloccoProgetti {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: thin;
+    border-color: blue;
+   background-color: cornflowerblue;
+   padding-bottom: 40px;
+}
+/*top e left 0 px, heigh e wudth 100%, colore e opacita*/
+
+.bloccoPiccolo{
+    width: 800px;
+}
+
+.bloccoProgetti .progetto {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bloccoProgetti .progetto .scritta,
+.bloccoProgetti .progetto .descrizione {
+    float: left;
+    text-align: justify;
+}
+
+.bloccoProgetti .progetto .scritta {
+    width: 350px;
+    padding-right: 50px;
+    text-transform: uppercase;
+    color: red;
+    padding-top:  40px;
+    text-align: center;
+}
+
+.bloccoProgetti .progetto .descrizione {
+    width: 375px;
+    border-style: solid;
+    border-width: thin;
+    border-color: blue;
+    padding: 10px;
+}
+.allineamentoDestra{
+    text-align: right;
+}
+.scrittaTestimoni{
+    width: 300px;
+    float: left;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 50px;
+    color: red;
+}
+.testimone{
+    width: 300px;
+    height: 200px;
+}

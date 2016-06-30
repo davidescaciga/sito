@@ -1,0 +1,237 @@
+/* STILI COMUNI */
+body{
+    margin:0;
+    width: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+h1, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.principale{
+    height: 400px;
+    width: 80%;
+    margin: auto;
+}
+
+.sfondoCasaFamiglia{
+    background-image: url("../Immagini/image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sfondoBenSalute{
+     background-image: url("../Immagini/getty_rf_photo_of_man_jogging_in_woods.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.sfondoTVEnter{
+    background-image: url("../Immagini/cinema-a-casa-famiglia-televisione-1440x564_c.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sfondoServiziPersona{
+    background-image: url("../Immagini/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* STILI CASA E FAMIGLIA*/
+
+.scrittaSuImmagineCasaFamiglia{
+    color: white;
+    text-align: center;
+    width: auto;
+    padding-top: 200px;
+    padding-left: 500px;
+    font-size: 40px;
+    margin: 0;
+}
+.scrittaPiccolaCasaFamiglia{
+     position: relative;
+    color: white;
+    text-align: center;
+    left: 250px;
+    margin: 0;
+    font-size: 17px;
+    
+}
+.prodottiCasaeFam{
+    padding: 0;
+    margin: 0;
+    width: 14.2%;
+    float: left; 
+    padding-bottom: 50px;
+}
+
+.prodottiCasaeFam a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.prodottiCasaeFam img {
+    width: 80%;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* QUESTI 5 STILI SONO IN COMUNE, 
+riguardano l'immagine e il nome del prodotto
+e il titolo a metà pagina'*/
+.sottoTitolo{
+    text-align: center;
+}
+
+.immagineProdotto{
+    width: auto;
+    height: 400px;
+    padding-top: 20px;
+}
+.nomeProdotto{
+    text-align: left;
+    padding-left: 50px;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    }
+/*STILI SALUTE E BENESSERE*/
+
+.prodottiSaluteBenessere{
+    padding: 0;
+    margin: 0;
+    width: 16.5%;
+    float: left; 
+    padding-bottom: 50px;
+}
+.prodottiSaluteBenessere a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.prodottiSaluteBenessere img {
+    width: 80%;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.scrittaSuImmagineSaluteBenessere{
+    color: white;
+    padding-right: 330px;
+    padding-top: 100px;
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+    width: auto;
+}
+.scrittaPiccolaSaluteBenessere{
+    position: relative;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    right : 170px;
+    top: 30px;
+    margin: 0;
+   }
+
+
+/*STILI SERVIZI ALLA PERSONA*/
+.prodottiServiziPersona{
+    padding: 0;
+    margin: 0;
+    width: 25%;
+    float: left;
+    padding-bottom: 50px;
+}
+
+
+.prodottiServiziPersona a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.prodottiServiziPersona img {
+    width: 80%;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.scrittaSuImmagineServiziPersona{
+    color: white;
+    padding-left: 100px;
+    padding-top: 10px;
+    margin: 0;
+    font-size: 40px;
+    text-align: left;
+}
+.scrittaPiccolaServiziPersona{
+    color: white;
+    font-size: 17px;
+    text-align: left;
+    padding-left: 90px;
+    
+}
+
+/*STILI TV & ENTERTAINMENT*/
+
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.prodottiTvEnter{
+    width: 20%;
+    float: left;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.prodottiTvEnter a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.prodottiTvEnter img {
+    width: 80%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scrittaSuImmagineTV {
+    padding-top: 40px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    width: auto;
+    font-size: 40px;
+}
+
+.scrittaPiccolaTV {
+    position: relative;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    margin: 0;
+}
+
+
+

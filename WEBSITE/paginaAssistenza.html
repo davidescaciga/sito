@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=1200">
+	<!-- in teoria pure i titoli delle pagine sono dinamiche -->
+	<title>Pagina Assistenza</title>
+	
+		<link rel="stylesheet" type="text/css" href="./css/assistenza.css">		
+        <link rel="stylesheet" type="text/css" href="./css/stileGenerale.css">
+        <link rel="stylesheet" type="text/css" href="./css/lightslider.css">
+        <script src="./js/jquery.js" type="text/javascript"></script>
+        <script src="./js/script.js" type="text/javascript"></script>
+        <script src="./js/paginaAssistenza.js" type="text/javascript"></script>
+        <script src="./js/lightslider.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+	<header id="getHeader"></header>
+
+		<div class="page">
+			
+			<!-- l'intestazione è dinamica -->
+			<div class="intestazione allWidth spanBarre align" id="intestazione">
+				
+			</div>
+			<!-- fine intestazione dinamica -->
+
+			<div id="dinamico">
+				
+			</div>
+
+			<div class="informazioni sfondoGrigioChiaro">
+				<div class="descrizione titoloConBlocco">
+					<h2 class="nomeAS margineAuto blu">Descrizione</h2>
+					<!-- all'interno dei blocchi il contenuto è dinamico -->
+					<div class=" informazioni azzurro" id="descrizione">
+						<!-- contenuto dinamico. Nel database c'è proprio il codice html. Non è una best practice ma è troppo differente da pagina a pagina per gestirlo diversamente -->
+					</div>
+				</div>
+				<div class="faq titoloConBlocco">
+					<h2 class="nomeAS margineAuto blu">FAQ</h2>
+					<div class="informazioni azzurro" id="faq">
+						<!-- contenuto dinamico. Nel database c'è proprio il codice html. Non è una best practice ma è troppo differente da pagina a pagina per gestirlo diversamente -->
+					</div>
+					<!-- fine. Solo dentro è dinamico -->
+				</div>
+			</div>
+
+			<div class="devices allWidth">
+				<h1 class="rosso centro">POTRESTI ESSERE INTERESSATO A QUESTA ASSISTENZA SE POSSIEDI:</h1>
+				<!-- QUA CI VA LA BARRA CON I CELLULARI, CHE E' DINAMICA -->
+			</div>
+
+
+			<ul class="azzurro" id="light-slider">
+
+			</ul>
+			
+		</div>
+	
+	<footer id="getFooter"> </footer>
+   
+    <script type="text/javascript">
+        $(function(){
+            $("#getHeader").load("./HeaderFooter/header.html");
+            });
+        $(function(){
+            $("#getFooter").load("./HeaderFooter/footer.html");
+            });
+    </script>
+   
+</body>
+</html>

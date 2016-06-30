@@ -1,0 +1,53 @@
+<html>
+<head>
+        <meta charset="utf-8" >
+        <meta name="viewport" content="width=1200">
+    
+        <title> Benessere e Salute</title>
+    
+         <link rel="stylesheet" type="text/css" href="./css/stileCasaEFamiglia.css">
+        <link rel="stylesheet" type="text/css" href="./css/stileGenerale.css">
+    
+        <script type="text/javascript">
+        	var idGruppo = 2;
+        </script>
+    
+        <script src="./js/jquery.js" type="text/javascript"></script>       
+        
+        <script src="./js/BenessereSalute.js" type="text/javascript"></script>
+    </head>
+<body>
+    
+     <header id="getHeader"></header>
+    
+      <div class="principale sfondoBenSalute">
+                <p class="scrittaSuImmagineSaluteBenessere"> Benessere e Salute </p>
+                <p class="scrittaPiccolaSaluteBenessere"> Scopri come salute e benessere possono cambiare in meglio la tua vita. <br> Dai un'occhiata alle ultime novità </p>
+     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 class="sottoTitolo">  PRODOTTI E APP</h1>
+    <br>
+    <br>
+    <div class="container" id="dinamico" >
+    
+  </div>  
+      <footer id="getFooter"> </footer>
+    
+        
+        
+        
+     <script>
+        $(function(){
+            $("#getHeader").load("./HeaderFooter/header.html");
+            });
+        $(function(){
+            $("#getFooter").load("./HeaderFooter/footer.html");
+            });
+        
+    </script>
+    
+    </body>
+</html>

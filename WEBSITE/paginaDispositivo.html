@@ -1,0 +1,99 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+        <meta name="viewport" content="width=1200">
+        <link rel="stylesheet" type="text/css" href="./css/stileGenerale.css">
+        <link rel="stylesheet" type="text/css" href="./css/stile.css">
+        <link rel="stylesheet" type="text/css" href="./css/lightslider.css">
+        
+        <script src="./js/jquery.js" type="text/javascript"></script>
+
+        <script src="./js/paginaDispositivo.js" type="text/javascript"></script>
+        
+        <script src="./js/lightslider.js" type="text/javascript"></script>
+        
+        <script src="./js/navMenu.js" type="text/javascript"></script>
+        <title> Pagina Dispositivo </title>
+    
+    </head>
+    
+    <body>
+    
+    <header id="getHeader"></header>
+        
+    <div class="pulsante sfondoGrigioChiaro" id ="bottone">
+    </div>
+        
+    
+    <div class="centrato" >
+        
+        <div class="sfondoGrigioChiaro bloccoDispositivo" id="img">
+         
+        
+        </div>
+        
+         
+        <div class="sfondoGrigioChiaro bloccoDispositivo">
+        <h1 class="centro scrittaAzzurra" id="nome"> </h1>
+            
+        <p class="caratteristicheDispositivo" id="descrizione">
+            
+            
+        </p>
+        
+        </div>
+        
+    </div>
+        
+    <span>
+    
+    <div class="menuDispositivo primoBlocco azzurro" id="SL">
+       <a href="#" class="nero" id="1" onclick="return false"> Smartlife </a> </div>
+    
+    <div class="menuDispositivo sfondoGrigioChiaro" id="SP">
+        <a href="#" class="nero" id="2" onclick="return false"> Specifiche Tecniche </a></div>
+    
+    <div class="menuDispositivo sfondoGrigioChiaro" id="AS">
+        <a href="#" class="nero" id="3" onclick="return false"> Assistenza</a></div>
+    
+    </span>
+        
+    <div class="menu">
+       
+        <div class="sfondoGrigioChiaro descrizioneDispositivo" id="specifiche">
+
+        </div>
+        
+        <ul class="sfondoGrigioChiaro azzurro linkASmartLife" id="light-slider">
+
+        </ul>
+       
+        
+        <div class="sfondoGrigioChiaro linkAdAssistenza" >
+        <ul id="toAssistenza1">  </ul>
+        <ul id="toAssistenza2">  </ul>
+        </div>  
+    </div>
+        
+        
+   
+        
+
+    <footer id="getFooter"> </footer>
+       
+
+    
+
+    <script>
+        $(function(){
+            $("#getHeader").load("./HeaderFooter/header.html");
+            });
+        $(function(){
+            $("#getFooter").load("./HeaderFooter/footer.html");
+            });
+    </script>      
+    </body>
+    
+    
+</html>

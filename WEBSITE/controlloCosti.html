@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=1200">
+    
+    <title>Controllo costi</title>
+
+        <link rel="stylesheet" type="text/css" href="./css/assistenza.css">
+        <link rel="stylesheet" type="text/css" href="./css/stileGenerale.css">
+
+        <script type="text/javascript">
+            var idGruppo = 1;
+        </script>
+
+        <script src="./js/jquery.js" type="text/javascript"></script>
+        <script src="./js/assistenzePerGruppo.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+    <header id="getHeader"></header>
+
+    <div id="percentualeTitolo">
+        <h1 class="centro blu">CONTROLLO COSTI</h1>
+    </div>
+    
+    <div class="blocchi spanBarre centro allWidth">
+
+        <!-- inizio blocco laterale di sinistra statico -->
+        <div class="bloccoLaterale sfondoGrigioChiaro">
+            <a href="./gestioneLinea.html">
+            <div class="spanBarre assistenzaCliccabile allWidth">
+                <img src="./Immagini/Gestione_linea.png" class="immagineLaterale">
+                <h1 class="nomeAS margineAuto">Gestione linea e servizi</h1>
+            </div>
+            </a>
+            <div class="spanBarre assistenzaCliccabile allWidth">
+                <img src="./Immagini/Controlla_costi.png" class="immagineLaterale">
+                <h1 class="nomeAS margineAuto rosso">Controllo costi e pagamenti</h1>
+            </div>
+            <a href="./supportoTecnico.html">
+            <div class="spanBarre assistenzaCliccabile allWidth">
+                <img src="./Immagini/Supporto_tecnico.png" class="immagineLaterale">
+                <h1 class="nomeAS margineAuto">Supporto tecnico</h1>
+            </div>
+            </a>
+            <a href="./assSL.html">
+            <div class="spanBarre assistenzaCliccabile allWidth">
+                <img src="./Immagini/Logo_SL.png" class="immagineLaterale">
+                <h1 class="nomeAS margineAuto">SmartLife</h1>
+            </div>
+            </a>
+        </div>
+        <!-- fine blocco laterale di sinistra statico-->
+
+        <!-- inizio blocco con elenco delle assistenze dinamico -->
+        <div class="elencoAssistenze sfondoGrigioChiaro">
+            <table class="tabella" id="dinamico">
+                <!-- contenuto dinamico -->
+            </table>
+        </div>
+        <!-- fine blocco con elenco delle assistenze dinamico -->
+
+    </div>
+
+    <footer id="getFooter"> </footer>
+            
+    <script>
+        $(function(){
+            $("#getHeader").load("./HeaderFooter/header.html");
+            });
+        $(function(){
+            $("#getFooter").load("./HeaderFooter/footer.html");
+            });    
+    </script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=1200">
+	
+	<title>Assistenza</title>
+
+		<link rel="stylesheet" type="text/css" href="./css/assistenza.css">
+        <link rel="stylesheet" type="text/css" href="./css/stileGenerale.css">
+
+        <script src="./js/jquery.js" type="text/javascript"></script>
+        <script src="./js/getHighlightsPerAssistenza.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+    <header id="getHeader"></header>
+
+    <div class="percentualeTitolo">
+    	<h1 class="blu centro">ASSISTENZA</h1>
+    </div>
+
+	<!-- inizio blocco dinamico degli highlights -->
+	<div class="highlights azzurro">		
+		<div id="titolo">
+			<h1 class="centro blu">HIGHLIGHTS</h1>
+		</div>
+		<div class="spanBarre allWidth" id="dinamico">
+			<!-- contenuto dinamico -->
+		</div>
+	</div>
+	<!-- fine blocco dinamico -->
+
+	<!-- inizio blocco statico -->
+	<div class="assistenze">
+		<div class="spanBarre allWidth">
+			<div class="quartoWidth centro">
+				<a href="./gestioneLinea.html">
+				<div class="miniBlocco sfondoGrigioChiaro">
+					<img src="./Immagini/Gestione_linea.png" class="immagine">
+					<h2 class="nomeAS">Gestione linea e servizi</h2>	
+				</div>
+				</a>
+			</div>
+			<div class="quartoWidth centro">
+				<a href="./controlloCosti.html">
+				<div class="miniBlocco sfondoGrigioChiaro">
+					<img src="./Immagini/Controlla_costi.png" class="immagine">
+					<h2 class="nomeAS">Controllo costi e pagamenti</h2>
+				</div>
+				</a>
+			</div>
+			<div class="quartoWidth centro">
+				<a href="./supportoTecnico.html">
+				<div class="miniBlocco sfondoGrigioChiaro" >
+					<img src="./Immagini/Supporto_tecnico.png" class="immagine">
+					<h2 class="nomeAS">Supporto tecnico</h2>
+				</div>
+				</a>
+			</div>
+			<div class="quartoWidth centro">
+				<a href="./assSL.html">
+				<div class="miniBlocco sfondoGrigioChiaro">
+					<img src="./Immagini/Logo_SL.png" class="immagine">
+					<h2 class="nomeAS">SmartLife</h2>
+				</div>	
+				</a>	
+			</div>
+		</div>
+	</div>
+	<!-- fine blocco statico -->
+
+	<footer id="getFooter"> </footer>
+            
+     <script>
+        $(function(){
+            $("#getHeader").load("./HeaderFooter/header.html");
+            });
+        $(function(){
+            $("#getFooter").load("./HeaderFooter/footer.html");
+            });
+    </script>
+
+    </body>
+</html>

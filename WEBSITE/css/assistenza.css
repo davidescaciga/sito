@@ -1,0 +1,145 @@
+.immagine{
+	width: 60%;
+	height: auto;
+}
+
+.percentualeTitolo{
+	width: 20%;
+	margin-right: 40%;
+	margin-left: 40%;
+}
+
+.immagineLaterale{
+	height: 150px;
+	width: auto;
+}
+
+.allWidth{
+	width: 100%;
+}
+
+.quartoWidth{
+	width: 25%;
+}
+
+.nomeAS{
+	color: black;
+	word-wrap: break-word;
+	margin-top: -1px;
+}
+
+.margineAuto{
+	margin: auto;
+}
+
+.highlights{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-style: solid;
+	border-color: blue;
+	border-width: 1px;
+}
+
+.assistenze{
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.miniBlocco{
+	border-color: blue;
+	border-style: solid;
+	border-width: 2px;
+	height: 100%;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding-top: 10px;
+}
+
+.blocchi{
+	min-width: 1100px;
+	margin: auto;
+}
+
+.bloccoLaterale{
+	width: 400px;
+	border-color: blue;
+	border-style: solid;
+	border-width: 2px;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.elencoAssistenze{
+	width: 100%;
+	margin-right: 2%;
+	margin-left: 2%;
+	border-color: blue;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.assistenzaCliccabile{
+	max-width: 400px;
+	height: 250px;
+	align-items: center;
+}
+
+.tabella{
+	width: 100%;
+	height: 100%;
+}
+
+.titolo{
+	font-size: 20px;
+	text-align: left;
+	padding-left: 10%;
+}
+
+.page{
+	width: 80%;
+	margin: auto;
+}
+
+.align{
+	align-items: center;
+	position: relative;
+}
+
+.bottone{
+	border: solid blue 2px;
+	height: 30px;
+	line-height: 35px;
+	position: absolute;
+	right: 0px;
+	font-size: 15px;
+	bottom: 10px;
+	padding: 2%;
+	text-align: center;
+}
+
+.informazioni{
+	width: 100%;
+	height: auto;
+	border:solid blue 2px;
+	padding-bottom: 5px;
+}
+
+.titoloConBlocco{
+	width: 80%;
+	height: auto;
+	margin: auto;
+	padding-top: 10px;
+}
+
+.gruppo{
+	font-size: 25px;
+}
+
+p.padding{
+	padding-left: 10px;
+	font-size: 20px;
+}

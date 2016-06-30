@@ -1,0 +1,81 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=1200">
+      
+        <link rel="stylesheet" type="text/css" href="./css/stileGenerale.css">
+        <link rel="stylesheet" type="text/css" href="./css/stilePaginaApplicazione.css">
+        <link rel="stylesheet" type="text/css" href="./css/lightslider.css">
+     
+        <script src="./js/jquery.js" type="text/javascript"></script>
+        <script src="./js/paginaApplicazione.js" type="text/javascript"></script>
+        <script src="./js/lightslider.js" type="text/javascript"></script>
+        
+        <title> Applicazione </title>
+    
+    </head>
+    
+    <body>
+    <header id="getHeader"></header>
+       
+        <div class="immagineInAlto" id ="immagine">
+        </div>
+        <div class="intestazione">
+            <div class="logo" id ="logotim" >
+            </div>
+                <div class="titolo" id = "titolo">
+                </div>
+            
+            <div class="pulsante sfondoGrigioChiaro" id ="bottone">
+            </div>
+            
+        </div>
+        
+      <div class="bloccoGrande ">
+                <div class="primaRiga">
+                    <div class="scritta">DESCRIZIONE:</div>
+                    <div class="descrizione" id = "descrizione">
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="secondaRiga">
+                    <div class="scritta">attivazioni e regole:
+                    </div>
+                    <div class="descrizione" id = "attivazione">
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        
+        <div class="faq">
+            <div class="scrittaFaq">faq:
+             </div>
+                    <div class="descrizione" id = "faq">
+                    </div>
+         </div>
+            
+       
+        
+        <h2 class="sottotitolo"> dispositivi compatibili con questa applicazione</h2>
+        
+        <ul class="azzurro largo" id="light-slider">
+
+        </ul>
+        
+    <footer id="getFooter"> </footer>
+    
+        
+        
+        
+     <script>
+        $(function(){
+            $("#getHeader").load("./HeaderFooter/header.html");
+            });
+        $(function(){
+            $("#getFooter").load("./HeaderFooter/footer.html");
+            });        
+    </script>      
+    </body>
+    
+</html>

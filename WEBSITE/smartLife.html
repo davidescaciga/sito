@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <meta charset="utf-8" >
+        <meta name="viewport" content="width=1200">
+        <title> SmartLife</title>
+        
+        <link rel="stylesheet" type="text/css" href="./css/stileSmartLife.css">
+        <link rel="stylesheet" type="text/css" href="./css/stileGenerale.css">
+        <script src="./js/jquery.js" type="text/javascript"></script>
+    </head>
+    
+     <body>
+            <header id="getHeader"></header>
+            <div class="benvenuto"> Benvenuto in TIM Smart Life, scopri il nuovo mondo connesso di TIM</div>
+         <br>
+    
+      <div class="quadrante">
+         <table class="tabella">
+            <tr>
+                <td class="riquadro riquadroCasaFam borditabella">
+                    
+                    <div class="testoriquadro">
+                        <h2 class="nomiCategoriePrimaColonna">
+                            Casa e Famiglia
+                            <br>
+                            <a href="casaEFamiglia.html" class="testoPulsante">Scopri</a>
+                        </h2>
+                    </div> 
+                    
+                </td>
+                <td class="riquadro riquadroTV borditabella">
+                    
+                    <div class="testoriquadro sinistra">
+                        <h2 class="nomiCategorieSecondaColonna">
+                            TV & Entertainment
+                            <br>
+                            <a href="tv&enter.html" class="testoPulsante">Scopri</a>
+                        </h2>
+                    </div> 
+                    
+                </td>
+            </tr>
+            <tr>
+                <td class="riquadro riquadroSalBen borditabella"> 
+                    <div class="testoriquadro">
+                       <h2 class="nomiCategoriePrimaColonna">Benessere e Salute<br>
+                    
+                        <a href="benESalute.html" class="testoPulsante">Scopri</a></h2>
+                    </div> 
+                    
+                </td>
+                    
+                
+                <td class="riquadro riquadroServizi borditabella">
+                       <div class="testoriquadro sinistra">
+                        <h2 class="nomiCategorieSecondaColonna">Servizi alla Persona <br>
+                     
+                        <a href="serviziAllaPersona.html" class="testoPulsante">Scopri</a></h2>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+       
+          <footer id="getFooter"> </footer>
+    
+        
+        
+        
+     <script>
+        $(function(){
+            $("#getHeader").load("./HeaderFooter/header.html");
+            });
+        $(function(){
+            $("#getFooter").load("./HeaderFooter/footer.html");
+            });
+        
+    </script>
+    </body>
+</html>
